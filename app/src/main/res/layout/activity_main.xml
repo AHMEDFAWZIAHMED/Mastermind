@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/cpu_choice_1"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/cpu_choice_2"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/cpu_choice_3"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/cpu_choice_4"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/circle" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/guess_11"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/guess_12"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/guess_13"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/guess_14"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/result_11"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/result_12"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/result_13"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/result_14"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/guess_21"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/guess_22"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/guess_23"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/guess_24"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/result_21"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/result_22"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/result_23"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/result_24"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/guess_31"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/guess_32"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/guess_33"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/guess_34"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/result_31"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/result_32"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/result_33"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/result_34"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/guess_41"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/guess_42"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/guess_43"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/guess_44"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/result_41"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/result_42"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/result_43"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/result_44"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/guess_51"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/guess_52"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/guess_53"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/guess_54"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/result_51"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/result_52"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/result_53"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/result_54"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/guess_61"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/guess_62"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/guess_63"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/guess_64"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/result_61"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/result_62"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/result_63"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/result_64"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/guess_71"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/guess_72"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/guess_73"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/guess_74"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/result_71"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/result_72"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/result_73"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/result_74"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/white_circle" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/delete_button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/delete_result"
+            android:background="@drawable/background_delete"
+            android:layout_marginHorizontal="2dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/black_button"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/black_circle"
+            android:background="@color/light_gray"
+            android:layout_marginHorizontal="2dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/purple_button"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/purple_circle"
+            android:background="@color/light_gray"
+            android:layout_marginHorizontal="2dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/blue_button"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/blue_circle"
+            android:background="@color/light_gray"
+            android:layout_marginHorizontal="2dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/enter_button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/enter_results"
+            android:background="@drawable/background_enter"
+            android:layout_marginHorizontal="2dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/green_button"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/green_circle"
+            android:background="@color/light_gray"
+            android:layout_marginHorizontal="10dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/yellow_button"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginHorizontal="10dp"
+            android:background="@color/light_gray"
+            android:src="@drawable/yellow_circle"
+            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/orange_button"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/orange_circle"
+            android:background="@color/light_gray"
+            android:layout_marginHorizontal="10dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/red_button"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/red_circle"
+            android:background="@color/light_gray"
+            android:layout_marginHorizontal="10dp"
+            tools:ignore="SpeakableTextPresentCheck,TooManyViews" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
